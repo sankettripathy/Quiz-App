@@ -2,7 +2,7 @@ Quiz App 🎯
 
 An interactive quiz application built with React + TypeScript + TailwindCSS. It supports smooth navigation, dynamic questions, and AI-powered prompt refinements. It also has dark mode feature and has loading screen in between every page.
 
-🔗 Live Demo: quiz-app-y7td.vercel.app
+🔗 Live Demo: https://quiz-app-y7td.vercel.app/
 
 
 📌 Overview
@@ -67,6 +67,7 @@ node server.cjs
 2) Store quiz history in a database.
 
 3) Add more question categories & difficulty levels.
+
 
 
 

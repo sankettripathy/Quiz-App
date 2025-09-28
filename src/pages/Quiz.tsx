@@ -47,7 +47,7 @@ const Quiz = () => {
 
   const fetchQuestions = async (topic: string) => {
     try {
-      const res = await axios.get(`http://localhost:4000/api/questions/${topic}`);
+      const res = await axios.get(`https://quiz-app-5vp9.onrender.com/api/questions/${topic}`);
       
       if (Array.isArray(res.data)) {
         return res.data as Question[];
@@ -305,4 +305,5 @@ const Quiz = () => {
 };
 
 export default Quiz;
+
 

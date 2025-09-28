@@ -127,7 +127,7 @@ const TopicSelection = () => {
             Select Your Quiz Topic
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Choose from 7 exciting categories, each with 5 challenging questions to test your knowledge
+            Choose from 6 exciting categories, each with 5 challenging questions to test your knowledge
           </p>
         </div>
 
@@ -225,5 +225,6 @@ const TopicSelection = () => {
     </div>
   );
 };
+
 
 export default TopicSelection;

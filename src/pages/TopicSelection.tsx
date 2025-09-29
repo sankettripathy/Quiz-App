@@ -187,11 +187,11 @@ const TopicSelection = () => {
         {/* Stats Section */}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-card">
-            <div className="text-2xl font-bold text-primary mb-2">35</div>
+            <div className="text-2xl font-bold text-primary mb-2">30</div>
             <div className="text-sm text-muted-foreground">Total Questions</div>
           </div>
           <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-card">
-            <div className="text-2xl font-bold text-success mb-2">7</div>
+            <div className="text-2xl font-bold text-success mb-2">6</div>
             <div className="text-sm text-muted-foreground">Quiz Topics</div>
           </div>
           <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-card">
@@ -228,3 +228,4 @@ const TopicSelection = () => {
 
 
 export default TopicSelection;
+

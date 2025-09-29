@@ -69,6 +69,18 @@ node server.cjs
 3) Add more question categories & difficulty levels.
 
 
+🔧 Problems Faced
+
+1) Fetching quiz data from the backend sometimes caused delays or failed requests.
+   
+2) Setting up server.cjs with Express for API calls was tricky at first.
+   
+3) Adjusting CSS with Tailwind to ensure proper responsiveness.
+
+
+
+
+
 
 
 

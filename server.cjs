@@ -9,7 +9,7 @@ require("dotenv").config();
 
 const app = express();
 const PORT = process.env.PORT || 4000;
-const GROQ_API_KEY = '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';
+const GROQ_API_KEY = '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';
 
 app.use(cors()); 
 app.use(express.json());
@@ -51,5 +51,6 @@ app.get("/api/questions/:topic", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
+
 
 
